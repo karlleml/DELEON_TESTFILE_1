@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
 
-dataset = pd.read_csv('diabetes.csv')
+dataset = pd.read_csv('diabs.csv')
 x_variables = dataset.iloc[:,0:8]
 y_variable = dataset.iloc[:,8]
 print(x_variables)
