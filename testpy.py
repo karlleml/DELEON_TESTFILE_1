@@ -1,8 +1,8 @@
 from csv import DictWriter
   
 name_input = input("what is your name?: " )
-age_input = input("how old r u? : ")
-add_input = input("wher do u live?: ")
+age_input = input("how old are u? : ")
+add_input = input("wher do you live?: ")
 field_names = ['ID','NAME','AGE',
                'ADDRESS']
 
