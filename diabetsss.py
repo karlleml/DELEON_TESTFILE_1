@@ -1,3 +1,4 @@
+from cgi import test
 import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
@@ -24,3 +25,4 @@ model.fit(x_variables, y_variable, epochs = 95, batch_size=25)
 _, accuracy = model.evaluate(x_variables, y_variable)
 print('Accuracy %.2f' %(accuracy*100))
 model.summary()
+//test
