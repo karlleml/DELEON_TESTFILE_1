@@ -26,3 +26,4 @@ _, accuracy = model.evaluate(x_variables, y_variable)
 print('Accuracy %.2f' %(accuracy*100))
 model.summary()
 //test
+//added branch 2 test 1
